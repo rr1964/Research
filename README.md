@@ -1,3 +1,5 @@
 # Research
 #A repository for the files I have used in my research
 #Not all of this is perfectly up to date, since I do not make a consistent effort to maintain this on a daily basis.
+
+Once each paper is accepted for publication, I will place the relevant code up here. Code pertaining to active reseach can be requested at randall.reese@aggiemail.usu.edu. (i.e. for employment purposes). 
