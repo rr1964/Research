@@ -1,2 +1,3 @@
 R code for Chapter 4 of dissertation.
 
+Also contains files for slurm distributed computing using the CHPC at the University of Utah. 
