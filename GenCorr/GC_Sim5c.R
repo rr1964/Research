@@ -6,8 +6,7 @@
 # Interactive settings. With main effects. Pretty much SIM 5,, but now with main effects. 
 
 #setwd("M:/GCorr")
-source("/uufs/chpc.utah.edu/common/home/u6011224/GenCorr/GenCorrFunct.R")
-#source("M:/GCorr/GenCorr Functions.R")
+source("GenCorr Functions.R")
 #print("pig")
 
 library(data.table)
@@ -120,7 +119,7 @@ for(r in 1:100)
   
 }
 
-fileName = paste0("/uufs/chpc.utah.edu/common/home/u6011224/GenCorr/", "Sim6Results_", arg[[1]],".csv")
+fileName = paste0("PATH", "Sim6Results_", arg[[1]],".csv")
 
 fwrite(as.data.frame(score), 
        file = fileName,
