@@ -3,8 +3,6 @@
 
 #Sim 1
 
-
-#source("/uufs/chpc.utah.edu/common/home/u6011224/GenCorr/GenCorrFunct.R")
 source("GenCorr Functions.R")
 
 
@@ -124,7 +122,7 @@ for(r in 1:100)
   
 }
 
-fileName = paste0("/uufs/chpc.utah.edu/common/home/u6011224/GenCorr/", "Sim1Results_", arg[[1]],".csv")
+fileName = paste0("/uufs/chpc.utah.edu/common/home/GenCorr/", "Sim1Results_", arg[[1]],".csv")##Put in your own path. 
 
 fwrite(as.data.frame(score), 
        file = fileName,
